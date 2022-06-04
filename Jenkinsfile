@@ -5,7 +5,7 @@ pipeline {
 
         stage('Get Source') {
             steps {
-            git url: 'https://github.com/odirleyrp/pedelogo-catalogo.git', branch: 'main'
+            git url: 'https://github.com/odirleyrp/pedelogo-catalogo-v3.git', branch: 'main'
             }
           }
 
